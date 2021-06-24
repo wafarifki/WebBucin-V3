@@ -1,0 +1,274 @@
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body,
+html {
+    padding: 0;
+    margin: 0;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+body {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    background: #303030;
+    overflow: hidden;
+}
+
+.ml1 {
+    font-weight: 900;
+    font-size: 3em;
+    color: #f5f5f5;
+}
+
+.ml1 .letter {
+    display: inline-block;
+}
+
+
+.ml1 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+}
+
+.ml1 .line {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background-color: #f5f5f5;
+    transform-origin: 0 0;
+}
+
+.ml1 .line1 {
+    top: 0;
+}
+
+.ml1 .line2 {
+    bottom: 0;
+}
+
+.ml15 {
+    font-weight: 800;
+    font-size: 2.4em;
+    text-transform: uppercase;
+}
+
+.ml15 .word {
+    display: inline-block;
+}
+
+.ml16 {
+    padding: 40px 0;
+    font-weight: 800;
+    font-size: 2em;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+
+.ml16 .letter {
+    display: inline-block;
+}
+
+.ml11 {
+    font-weight: 700;
+    font-size: 3em;
+}
+
+.ml11 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+}
+
+.ml11 .line {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 3px;
+    background-color: #fff;
+    transform-origin: 0 50%;
+}
+
+.ml11 .line1 {
+    top: 0;
+    left: 0;
+}
+
+.ml11 .letter {
+    display: inline-block;
+}
+
+.ml9 {
+    position: relative;
+    font-weight: 800;
+    font-size: 2em;
+}
+
+.ml9 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+}
+
+.ml9 .letter {
+    transform-origin: 50% 100%;
+    display: inline-block;
+}
+
+.ml2 {
+    font-weight: 900;
+    font-size: 2em;
+}
+
+.ml2 .letter {
+    display: inline-block;
+}
+
+.ml4 {
+    position: relative;
+    font-weight: 900;
+    font-size: 3em;
+}
+
+.ml4 .letters {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0.3em;
+    right: 0;
+    opacity: 0;
+}
+
+.ml12 {
+    font-weight: 200;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.ml12 .letter {
+    display: inline-block;
+}
+
+.ml14 {
+    font-weight: bold;
+    font-size: 1.6em;
+}
+
+.ml14 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+}
+
+.ml14 .line {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #DBE6FD;
+    transform-origin: 100% 100%;
+    bottom: 0;
+}
+
+.ml14 .letter {
+    display: inline-block;
+}
+
+.ml7 {
+    position: relative;
+    font-weight: 900;
+    font-size: 3em;
+}
+
+.ml7 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+}
+
+.ml7 .letter {
+    transform-origin: 0 100%;
+    display: inline-block;
+}
+
+.ml13 {
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.ml13 .letter {
+    display: inline-block;
+}
+
+#gambar {
+    margin-bottom: 10px;
+    width: 150px;
+    border-radius: 14px;
+    border: 2px solid #f5f5f5;
+}
+
+
+.tombolmelayang {
+    background: #f5f5f5;
+    display: block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #303030;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    text-decoration: none;
+    transition: ease all 0.3s;
+    position: fixed;
+    z-index: 13123123123123;
+    right: 30px;
+    bottom: 30px;
+    border: 2px solid #303030;
+
+}
+
+.tombolmelayang:hover {
+    cursor: pointer;
+    background: #303030;;
+    color: #f5f5f5;
+    border: 2px solid #f5f5f5;
+}
+
+
+
